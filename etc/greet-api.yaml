@@ -1,0 +1,20 @@
+Name: greet-api
+Host: 0.0.0.0
+Port: 8888
+
+Logger:
+  Log_path: logs
+  Log_name: enheng
+
+Redis:
+  Host: localhost
+  Port: 6379
+  Password: 123456
+  DB: 13
+
+Business:
+  Host: localhost
+  Port: 5457
+  Password: 123456
+  Username: root
+  DB: db13
